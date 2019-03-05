@@ -1,0 +1,53 @@
+body {
+  background-color: #dddddd;
+}
+
+header {
+  background-color: #ffffff;
+  padding-top: 60px;
+}
+.upperTab {
+  padding: 10px;
+  background-color: #4aaaa5;
+  float: left;
+}
+section {
+  width: 960px;
+  clear: left;
+  background-color: #ffffff;
+}
+
+.header-content {
+  width: 960px;
+}
+section p {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+nav {
+  float: right;
+}
+
+li {
+  display: inline;
+}
+
+footer {
+  text-align: center;
+  background-color: #666666;
+  padding-top: 10px;
+  border-top: 8px solid #4aaaa5;
+}
+.about {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #dddddd;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+img {
+  margin-left: 15px;
+  margin-right: 15px;
+  float: left;
+}
