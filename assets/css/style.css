@@ -66,12 +66,25 @@ a {
   color: #777777;
 }
 
-footer {
-  text-align: center;
-  background-color: #666666;
-  border-top: 8px solid #4aaaa5;
+.footer,
+.push {
   height: 32px;
 }
+
+footer {
+  text-align: center;
+  vertical-align: bottom;
+  background-color: #666666;
+  border-top: 8px solid #4aaaa5;
+  position: relative;
+}
+footer p {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 0px;
+}
+
 .about {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -102,4 +115,39 @@ a:hover {
 
 a:visited {
   background-color: #96a9aa;
+}
+
+input,
+textarea {
+  width: 930px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-left: 15px;
+}
+
+textarea {
+  margin-bottom: 15px;
+}
+.submit {
+  display: inline;
+  color: #ffffff;
+  background-color: #4aaaa5;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin: 15px;
+}
+
+.submit:hover {
+  background-color: #96a9aa;
+}
+
+.space {
+  height: 15px;
 }
