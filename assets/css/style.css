@@ -1,10 +1,15 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
 body {
   background-color: #dddddd;
 }
 
 header {
   background-color: #ffffff;
-  padding-top: 60px;
+  overflow: auto;
 }
 .upperTab {
   padding: 10px;
@@ -13,12 +18,15 @@ header {
 }
 section {
   width: 960px;
+  margin: 0 auto;
   clear: left;
   background-color: #ffffff;
+  margin-top: 10px;
 }
 
 .header-content {
   width: 960px;
+  margin: 0 auto;
 }
 section p {
   margin-left: 15px;
@@ -26,16 +34,18 @@ section p {
 }
 nav {
   float: right;
+  margin-top: 20px;
 }
 
 li {
   display: inline;
+  column-rule-style: solid;
 }
 
 footer {
   text-align: center;
   background-color: #666666;
-  padding-top: 10px;
+  padding-top: 20px;
   border-top: 8px solid #4aaaa5;
 }
 .about {
@@ -44,10 +54,16 @@ footer {
   border-bottom: 2px solid #dddddd;
   margin-left: 15px;
   margin-right: 15px;
+  margin-bottom: 15px;
 }
 
 img {
   margin-left: 15px;
   margin-right: 15px;
   float: left;
+}
+.sidebar {
+  border-right: 1px solid #dddddd;
+  padding-right: 15px;
+  margin-right: 15px;
 }
