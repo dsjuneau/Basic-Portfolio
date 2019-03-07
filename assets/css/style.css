@@ -42,24 +42,55 @@ section {
   background-color: #ffffff;
   margin-top: 10px;
   border: 2px solid #dddddd;
+}
+
+.portfolio {
   overflow: auto;
   position: relative;
+  height: 700px;
 }
 
 .hangman {
   position: absolute;
-
-  top: 50px;
+  top: 70px;
   left: 15px;
 }
 
-.hangman-text {
+.img-text {
   position: absolute;
   background-color: #4aaaa5;
   color: #ffffff;
-  width: 100%;
-  text-align: cener;
+  width: 240px;
+  text-align: center;
   bottom: 20px;
+}
+
+.img-text:hover {
+  background-color: #96a9aa;
+}
+
+.rpg {
+  position: absolute;
+  top: 70px;
+  left: 300px;
+}
+
+.trivia {
+  position: absolute;
+  top: 270px;
+  left: 15px;
+}
+
+.rutgers {
+  position: absolute;
+  top: 270px;
+  left: 300px;
+}
+
+.rock {
+  position: absolute;
+  top: 470px;
+  left: 15px;
 }
 
 .header-content {
